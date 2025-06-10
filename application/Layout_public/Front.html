@@ -6,15 +6,27 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <meta name="generator" content="" />
-        <title>Portfolio · Front</title>
+        <title>Portfolio · Template</title>
     </head>
     <body>
+        
         <!-- HEADER | NAVIGATION & SCRIPT -->
         <header id="section-header">
 
+            <!-- TITLE | URL Name -->
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                    const urlParams = new URLSearchParams(window.location.search);
+                    const page = urlParams.get("page") || "Home";
+                    const title = document.title;
+
+                    document.title = title.replace("Template", page);
+                });
+            </script>
+
             <!-- HEADER NAVIGATION | HeaderNavigation.html -->
             <script>
-                fetch('HeaderScripts.html')
+                fetch('/application/Layout_public/HeaderScripts.html')
                     .then(res => res.text())
                     .then(html => {
                         const parser = new DOMParser();
@@ -29,7 +41,7 @@
 
             <!-- HEADER SCRIPT | HeaderScripts.html -->
             <script>
-                fetch('HeaderNavigation.html')
+                fetch('/application/Layout_public/HeaderNavigation.html')
                     .then(res => res.text())
                     .then(data => {
                         document.getElementById('section-header').innerHTML = data;
@@ -61,7 +73,7 @@
 
             <!-- FOOTER NAVIGATION | FooterNavigation.html -->
             <script>
-                fetch('FooterNavigation.html')
+                fetch('/application/Layout_public/FooterNavigation.html')
                     .then(res => res.text())
                     .then(data => {
                         document.getElementById('section-footer').innerHTML = data;
@@ -70,7 +82,7 @@
 
             <!-- FOOTER SCRIPT | FooterScripts.html -->
             <script>
-                fetch('FooterScripts.html')
+                fetch('/application/Layout_public/FooterScripts.html')
                     .then(res => res.text())
                     .then(html => {
                     const parser = new DOMParser();
