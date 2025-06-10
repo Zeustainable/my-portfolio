@@ -1,0 +1,112 @@
+/* MOBILE DEVICE | SMARTPHONE */
+@media (max-width: 767px) {
+    .section-header {
+        margin-bottom: 3.8rem;
+    }
+
+    .navbar {
+        .navbar-brand {
+            font-size: 1.5rem !important;
+        }
+        
+        .navbar-collapse {
+            background-color: #212529;
+            border-radius: 0 0 10px 10px;
+            margin: 0 -12px;
+            padding: 1rem 1.5rem 1.5rem;
+            margin-top: 0.5rem;
+        }
+        
+        .navbar-nav {
+            margin-top: 0rem;
+            margin-bottom: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem 0;
+        }
+        
+        .nav-link {
+            padding: 0.75rem 0;
+            text-align: center;
+        }
+
+
+        
+        .div-button {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+            button {
+                width: 100%;
+
+                margin: 0.5rem 0;
+                padding: 0.75rem !important;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+/* MOBILE DEVICE | TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .section-header {
+        margin-bottom: 3.9rem;
+    }
+
+    .navbar {
+        .navbar-collapse {
+            padding: 1rem 0;
+        }
+        
+        .div-button {
+            display: flex;
+            flex-direction: column;
+            width: auto;
+
+            margin-top: 1rem;
+        }
+    }
+}
+
+/* MOBILE DEVICE | TABLET */
+@media (min-width: 994px) and (max-width: 1024px) {
+    .section-header {
+        margin-bottom: 9.2rem;
+    }
+}
+
+/* MOBILE DEVICE | DESKTOP */
+@media (min-width: 1025px) {
+    .section-header {
+        margin-bottom: 3.8rem;
+    }
+
+    .navbar {
+        .navbar-collapse {
+            display: flex !important;
+        }
+        
+        .navbar-nav {
+            align-items: center;
+        }
+        
+        .div-button .btn {
+            transition: all 0.3s ease;
+        }
+        
+        .div-button .btn:hover {
+            transform: translateY(-2px);
+        }
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 992px) {
+    
+}
+
+/* Tablet Styles */
+@media (max-width: 991px) and (min-width: 768px) {
+
+}

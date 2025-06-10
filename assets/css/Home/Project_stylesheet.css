@@ -1,0 +1,7 @@
+.desktop-view {
+    display: block;
+}
+
+.mobile-view {
+    display: none;
+}

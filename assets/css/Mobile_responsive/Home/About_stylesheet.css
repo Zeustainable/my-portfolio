@@ -1,0 +1,23 @@
+/* MOBILE DEVICE | SMARTPHONE */
+@media (max-width: 767px) {
+    .contact-links {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+    .section-header {
+        font-size: 1.25rem !important;
+    }
+    .date-info {
+        font-size: 0.85rem;
+    }
+}
+
+/* MOBILE DEVICE | TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/* MOBILE DEVICE | DESKTOP */
+@media (min-width: 1025px) {
+    
+}
