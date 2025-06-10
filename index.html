@@ -7,6 +7,7 @@
         <meta name="author" content="" />
         <meta name="generator" content="" />
         <title>Portfolio · Template</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     </head>
     <body>
         
@@ -53,11 +54,20 @@
                         document.getElementById('section-header').innerHTML = data;
 
                         // Wait for navigation to be inserted, then highlight the current page
-                        const currentPage = new URLSearchParams(window.location.search).get("page") || "Home";
+                        let currentPage = new URLSearchParams(window.location.search).get("page") || "Home";
 
                         document.querySelectorAll('.nav-link').forEach(link => {
-                            const url = new URL(link.href, window.location.origin);
-                            const linkPage = new URLSearchParams(url.search).get("page");
+                            let url = new URL(link.href, window.location.origin);
+                            let linkPage = new URLSearchParams(url.search).get("page") || "Home";
+
+                            switch(currentPage) {
+                                case 'Graphic_design':
+                                case 'Web_design':
+                                case 'Web_development':
+                                    currentPage = 'Project';
+                                    linkPage = 'Project';
+                                    break;
+                            }
 
                             if (linkPage === currentPage) {
                                 link.classList.add("active");
