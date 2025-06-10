@@ -56,22 +56,15 @@
                         // Wait for navigation to be inserted, then highlight the current page
                         let currentPage = new URLSearchParams(window.location.search).get("page") || "Home";
 
-                        switch(currentPage) {
-                            case 'Graphic_design':
-                            case 'Web_design':
-                            case 'Web_development':
-                                currentPage = 'Project';
-                                break;
-                        }
-
                         document.querySelectorAll('.nav-link').forEach(link => {
                             let url = new URL(link.href, window.location.origin);
                             let linkPage = new URLSearchParams(url.search).get("page") || "Home";
 
-                            switch(linkPage) {
+                            switch(currentPage) {
                                 case 'Graphic_design':
                                 case 'Web_design':
                                 case 'Web_development':
+                                    currentPage = 'Project';
                                     linkPage = 'Project';
                                     break;
                             }
