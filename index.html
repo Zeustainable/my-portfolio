@@ -26,7 +26,7 @@
 
             <!-- HEADER NAVIGATION | HeaderNavigation.html -->
             <script>
-                fetch('/application/views/Layout_public/HeaderScripts.html')
+                fetch('/application/Layout_public/HeaderScripts.html')
                     .then(res => res.text())
                     .then(html => {
                         const parser = new DOMParser();
@@ -41,7 +41,7 @@
 
             <!-- HEADER SCRIPT | HeaderScripts.html -->
             <script>
-                fetch('/application/views/Layout_public/HeaderNavigation.html')
+                fetch('/application/Layout_public/HeaderNavigation.html')
                     .then(res => res.text())
                     .then(data => {
                         document.getElementById('section-header').innerHTML = data;
@@ -73,7 +73,7 @@
 
             <!-- FOOTER NAVIGATION | FooterNavigation.html -->
             <script>
-                fetch('/application/views/Layout_public/FooterNavigation.html')
+                fetch('/application/Layout_public/FooterNavigation.html')
                     .then(res => res.text())
                     .then(data => {
                         document.getElementById('section-footer').innerHTML = data;
@@ -82,7 +82,7 @@
 
             <!-- FOOTER SCRIPT | FooterScripts.html -->
             <script>
-                fetch('/application/views/Layout_public/FooterScripts.html')
+                fetch('/application/Layout_public/FooterScripts.html')
                     .then(res => res.text())
                     .then(html => {
                     const parser = new DOMParser();

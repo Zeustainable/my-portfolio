@@ -42,7 +42,7 @@
             root = 'Home';
     }
 
-    fetch(`/application/views/${root}/${page}.html`)
+    fetch(`/application/${root}/${page}.html`)
         .then(res => res.text())
         .then(html => {
         document.getElementById('page-content').innerHTML = html;

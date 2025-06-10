@@ -1,9 +1,19 @@
-/* ========== PUBLIC | WALLPAPER ========== */
+/* ========== UNIVERSAL RESET | DEFAULT ========== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Inter', sans-serif;
+}
+
+/* ============== PUBLIC | WALLPAPER ============= */
 .custom-text-shadow {
     text-shadow: 2px 2px 12px #000000;
 }
 
-/* ========== TEXT ALIGN | JUSTIFY ========== */
+/* ============= TEXT ALIGN | JUSTIFY ============ */
 .text-justify {
     text-align: justify;
 }
