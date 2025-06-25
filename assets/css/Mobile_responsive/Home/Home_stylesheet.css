@@ -1,0 +1,18 @@
+/* MOBILE DEVICE | SMARTPHONE */
+@media (max-width: 767px) {
+    .mt-custom {
+        margin: 1.3rem 0;
+    }
+}
+
+/* MOBILE DEVICE | TABLET */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .mt-custom {
+        margin: 1.3rem 0;
+    }
+}
+
+/* MOBILE DEVICE | DESKTOP */
+@media (min-width: 1025px) {
+    
+}
