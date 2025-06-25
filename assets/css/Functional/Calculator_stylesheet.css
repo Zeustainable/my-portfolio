@@ -1,0 +1,84 @@
+/* Body */
+body {
+    background: #000000;
+}
+
+/* Main Div Class */
+.mainForm {
+    background: transparent;
+
+    margin: 4rem 0rem;
+    padding: 20px;
+
+    border: 1px solid #717377;
+    border-radius: 50px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+/* Design of the whole Calculator */
+input {
+    color: #ffffff;
+    background: transparent;
+
+    font-size: 50px;
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+    width: 240px;
+
+    padding: 24px 0px;
+    margin: 10px;
+
+    border: none;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+
+    cursor: pointer;
+}
+
+/* Position of Textfield */
+.textField {
+    margin: 32px 0 -25px 0;
+}
+
+/* Font Color of the Textfield */
+input::placeholder {
+    color: #ffffff;
+}
+
+/* Buttons for AC, +/-, % */
+.top {
+    color: #ffffff;
+    background: #5c5b60;
+
+    font-size: 23px;
+}
+
+/* Buttons for /, x, -, +, = */
+.operator {
+    background: #ff9f09;
+}
+
+/* Buttons for zero only */
+.zero {
+    width: 124px;
+    border-radius: 60px;
+}
+
+/* Design of every Buttons in Calculator */
+button {
+    color: #ffffff;
+    background: #2b2a30;
+
+    font-size: 23px;
+
+    width: 58px;
+    height: 58px;
+
+    margin: 4px 2px;
+
+    border: none;
+    border-radius: 100px;
+
+    cursor: pointer;
+}

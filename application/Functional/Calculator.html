@@ -1,13 +1,44 @@
-<section class="public-header position-relative d-flex justify-content-center align-items-center bg-dark">
-    <img src="/assets/img/public/wallpaper/home-wallpaper.png" class="img-fluid w-100 opacity-50" alt="Responsive image">
-    <div class="position-absolute">
-        <span class="fs-1 text-light text-uppercase custom-text-shadow">Calculator</span>
-    </div>
-</section>
+<!-- ========================================= ASSETS (STYLESHEET) ======================================== -->
 
-<section class="container my-5">
-    <div class="content-section">
-        <h2>Welcome to my website</h2>
-        <p>My calculator page goes here...</p>
-    </div>
+<link rel="stylesheet" href="/assets/css/Functional/Calculator_stylesheet.css">
+
+<!-- ====================================================================================================== -->
+
+<section class="d-flex justify-content-center align-items-center w-100">
+    <section class="mainSection">
+        <div class="mainForm">
+            <div class="textField">
+                <input type="text" placeholder="0" id="displayInput" readonly="true">
+            </div>
+            <div>
+                <button type="button" class="top">AC</button>
+                <button type="button" class="top">+/-</button>
+                <button type="button" class="top">%</button>
+                <button type="button" class="operator">÷</button>
+            </div>
+            <div>
+                <button type="button">7</button>
+                <button type="button">8</button>
+                <button type="button">9</button>
+                <button type="button" class="operator">x</button>
+            </div>
+            <div>
+                <button type="button">4</button>
+                <button type="button">5</button>
+                <button type="button">6</button>
+                <button type="button" class="operator">-</button>
+            </div>
+            <div>
+                <button type="button">1</button>
+                <button type="button">2</button>
+                <button type="button">3</button>
+                <button type="button" class="operator">+</button>
+            </div>
+            <div>
+                <button type="button" class="zero">0</button>
+                <button type="button">.</button>
+                <button type="button" class="operator">=</button>
+            </div>
+        </div>
+    </section>
 </section>
