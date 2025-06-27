@@ -47,8 +47,9 @@
         font-size: 14px !important;
     }
 
-    .accordion-item, .accordion-body {
+    .accordion-item, .accordion-body, .shadow-sm {
         border: none !important;
+        box-shadow: none !important;
     }
     
     .my-4, .my-5 {

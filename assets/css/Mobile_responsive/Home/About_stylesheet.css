@@ -4,11 +4,17 @@
         flex-direction: column;
         gap: 10px !important;
     }
+
     .section-header {
         font-size: 1.25rem !important;
     }
+
     .date-info {
         font-size: 0.85rem;
+    }
+
+    .margin-custom {
+        margin: 0rem 1rem;
     }
 }
 
