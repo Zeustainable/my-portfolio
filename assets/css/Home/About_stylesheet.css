@@ -6,7 +6,7 @@
 
 @media print {
     /* PRINT | EXCLUSION - More comprehensive hiding */
-    .no-print, button, .navbar, footer, .public-header, header, nav, #back-to-top {
+    .no-print, button, .navbar, footer, .public-header, header, nav, .justify-content-between, .mt-2, #back-to-top {
         display: none !important;
         visibility: hidden !important;
         height: 0 !important;

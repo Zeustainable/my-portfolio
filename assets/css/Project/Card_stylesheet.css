@@ -1,0 +1,57 @@
+/* ================ COLUMN | CUSTOM ================ */
+
+.col-md-3 {
+    cursor: pointer;
+}
+
+/* ================= CARD | CUSTOM ================= */
+
+.card-custom {
+    transition: .5s;
+}
+
+.card-custom:hover {
+    border: 1px solid blue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-custom:hover .card-footer {
+    background-color: #e8f0fd;
+}
+
+.card-custom:hover .div-dot {
+    transition: .5s;
+    opacity: 1;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+/* ================= FONT | SIZE ================== */
+
+.fs-custom {
+    font-size: 95%;
+}
+
+.fs-sub-custom {
+    font-size: 75%;
+}
+
+/* ================ EXTRA | CLASS ================= */
+
+.div-dot {
+    opacity: 0;
+}
+
+.div-dot:hover {
+    opacity: 0;
+    border: 1px solid rgb(224, 224, 224);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+}
+
+.img-custom {
+    width: 600px;
+    height: 180px;
+    object-fit: cover;
+}
