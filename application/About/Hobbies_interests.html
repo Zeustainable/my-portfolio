@@ -1,11 +1,10 @@
-<section class="public-header position-relative d-flex justify-content-center align-items-center bg-dark">
-    <img src="/assets/img/public/wallpaper/home-wallpaper.png" class="img-fluid w-100 opacity-50" alt="Responsive image">
-    <div class="position-absolute">
-        <span class="fs-1 text-light text-uppercase custom-text-shadow">Hobbies & Interests</span>
-    </div>
-</section>
+<!-- ========================================= ASSETS (STYLESHEET) ======================================== -->
 
-<section class="container mt-4">
+<link rel="stylesheet" href="/assets/css/Project/Card_stylesheet.css">
+
+<!-- ====================================================================================================== -->
+
+<section class="container mt-custom">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/?page=About" class="text-primary">About</a></li>
@@ -15,72 +14,242 @@
 </section>
 
 <section class="container mb-5">
+    <div class="d-flex justify-content-between mt-4">
+        <h1 class="fs-3">Hobbies & Interests</h1>
+        <div>
+            <button class="btn btn-primary border border-1"><i class="bi bi-grid-3x3-gap"></i></button>
+            <button class="btn btn-white border border-1"><i class="bi bi-list"></i></button>
+        </div>
+    </div>
+    <hr class="mt-2 my-4" />
+    
     <div class="content-section">
-        <table class="table table-hover">
-            <thead>
-                <tr>
-                    <th scope="col">Name</th>
-                    <th scope="col">Date Modified</th>
-                    <th scope="col">Type</th>
-                    <th scope="col">File Size</th>
-                    <th scope="col"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <i class="bi bi-folder-fill text-warning me-3"></i>
-                        <a href="/?page=Folder_one" class="text-black">Hobbies</a>
-                    </td>
-                    <td>13/12/2022 10:14 pm</td>
-                    <td>File Folder</td>
-                    <td>---</td>
-                    <td><i class="bi bi-three-dots-vertical"></i></td>
-                </tr>
-                <tr>
-                    <td>
-                        <i class="bi bi-folder-fill text-warning me-3"></i>
-                        <a href="/?page=Folder_two" class="text-black">Interests</a>
-                    </td>
-                    <td>19/08/2024 3:42 pm</td>
-                    <td>File Folder</td>
-                    <td>---</td>
-                    <td><i class="bi bi-three-dots-vertical"></i></td>
-                </tr>
-            </tbody>
-        </table>
+        <div class="row">
 
-        <div class="d-none row">
-            <div class="col-md-4 mb-3">
-                <div class="card">
-                    <img src="https://placehold.co/600x400/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+            <!-- INTRODUCTION TO HTML - SELF STUDY -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#introductionToHtmlModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/Introduction_to_HTML.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">Introduction_to_HTML.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <div class="card">
-                    <img src="https://placehold.co/600x400/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <!-- LASALLIAN CODESPACE | DLSU-D -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#lasallianCodeSpaceModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/Lasallian_CodeSpace.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">Lasallian_CodeSpace.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 mb-3">
-                <div class="card">
-                    <img src="https://placehold.co/600x400/EEE/31343C" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+
+            <!-- SYSTEM TURNOVER - OLPMC -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#systemTurnoverModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/OLPMC_Turnover.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">OLPMC_Turnover.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CERTIFICATE OF MERIT - SDCA -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#certificateOfMeritModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Certificate_of_Merit.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">SDCA_Certificate_of_Merit.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEST IN OJT - SDCA -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#bestInOjtModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Best_in_OJT.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">SDCA_Best_in_OJT.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<!-- INTRODUCTION TO HTML - SELF STUDY -->
+<div class="modal fade" id="introductionToHtmlModal" tabindex="-1" aria-labelledby="introductionToHtmlModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="introductionToHtmlModalLabel">Introduction_to_HTML.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/Introduction_to_HTML.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LASALLIAN CODESPACE | DLSU-D -->
+<div class="modal fade" id="lasallianCodeSpaceModal" tabindex="-1" aria-labelledby="lasallianCodeSpaceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="lasallianCodeSpaceModalLabel">Lasallian_CodeSpace.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/Lasallian_CodeSpace.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SYSTEM TURNOVER - OLPMC -->
+<div class="modal fade" id="systemTurnoverModal" tabindex="-1" aria-labelledby="systemTurnoverModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="systemTurnoverModalLabel">OLPMC_Turnover.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/OLPMC_Turnover.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CERTIFICATE OF MERIT - SDCA -->
+<div class="modal fade" id="certificateOfMeritModal" tabindex="-1" aria-labelledby="certificateOfMeritModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="certificateOfMeritModalLabel">SDCA_Certificate_of_Merit.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Certificate_of_Merit.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BEST IN OJT - SDCA -->
+<div class="modal fade" id="bestInOjtModal" tabindex="-1" aria-labelledby="bestInOjtModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="bestInOjtModalLabel">SDCA_Best_in_OJT.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Best_in_OJT.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

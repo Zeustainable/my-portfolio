@@ -1,3 +1,9 @@
+<!-- ========================================= ASSETS (STYLESHEET) ======================================== -->
+
+<link rel="stylesheet" href="/assets/css/Project/Card_stylesheet.css">
+
+<!-- ====================================================================================================== -->
+
 <section class="container mt-custom">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -7,13 +13,243 @@
     </nav>
 </section>
 
-<section class="container my-3">
+<section class="container mb-5">
     <div class="d-flex justify-content-between mt-4">
         <h1 class="fs-3">Awards & Certifications</h1>
+        <div>
+            <button class="btn btn-primary border border-1"><i class="bi bi-grid-3x3-gap"></i></button>
+            <button class="btn btn-white border border-1"><i class="bi bi-list"></i></button>
+        </div>
     </div>
     <hr class="mt-2 my-4" />
-
+    
     <div class="content-section">
-        <p>My awards & certifications page goes here...</p>
+        <div class="row">
+
+            <!-- INTRODUCTION TO HTML - SELF STUDY -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#introductionToHtmlModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/Introduction_to_HTML.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">Introduction_to_HTML.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- LASALLIAN CODESPACE | DLSU-D -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#lasallianCodeSpaceModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/Lasallian_CodeSpace.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">Lasallian_CodeSpace.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SYSTEM TURNOVER - OLPMC -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#systemTurnoverModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/OLPMC_Turnover.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">OLPMC_Turnover.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CERTIFICATE OF MERIT - SDCA -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#certificateOfMeritModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Certificate_of_Merit.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">SDCA_Certificate_of_Merit.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BEST IN OJT - SDCA -->
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#bestInOjtModal">
+                <div class="card card-custom mb-3 position-relative">
+                    <div class="card-body d-flex justify-content-between align-items-center">
+                        <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Best_in_OJT.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
+                        <div class="div-dot m-2 px-2 py-1 position-absolute top-0 end-0 bg-white rounded-circle">
+                            <i class="bi bi-three-dots-vertical"></i>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <span class="fs-custom fw-medium">SDCA_Best_in_OJT.jpg</span><br/>
+                        <span class="fs-sub-custom text-secondary">JPEG Image</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
+
+<!-- INTRODUCTION TO HTML - SELF STUDY -->
+<div class="modal fade" id="introductionToHtmlModal" tabindex="-1" aria-labelledby="introductionToHtmlModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="introductionToHtmlModalLabel">Introduction_to_HTML.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/Introduction_to_HTML.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- LASALLIAN CODESPACE | DLSU-D -->
+<div class="modal fade" id="lasallianCodeSpaceModal" tabindex="-1" aria-labelledby="lasallianCodeSpaceModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="lasallianCodeSpaceModalLabel">Lasallian_CodeSpace.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/Lasallian_CodeSpace.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SYSTEM TURNOVER - OLPMC -->
+<div class="modal fade" id="systemTurnoverModal" tabindex="-1" aria-labelledby="systemTurnoverModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="systemTurnoverModalLabel">OLPMC_Turnover.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/OLPMC_Turnover.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- CERTIFICATE OF MERIT - SDCA -->
+<div class="modal fade" id="certificateOfMeritModal" tabindex="-1" aria-labelledby="certificateOfMeritModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="certificateOfMeritModalLabel">SDCA_Certificate_of_Merit.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Certificate_of_Merit.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BEST IN OJT - SDCA -->
+<div class="modal fade" id="bestInOjtModal" tabindex="-1" aria-labelledby="bestInOjtModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="bestInOjtModalLabel">SDCA_Best_in_OJT.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/img/public/content/about/hobbies_interest/SDCA_Best_in_OJT.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

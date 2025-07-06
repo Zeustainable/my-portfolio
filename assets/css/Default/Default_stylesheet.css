@@ -18,6 +18,12 @@
     text-align: justify;
 }
 
+/* ================ CURSOR | POINTER ================= */
+.csr-pointer {
+    cursor: pointer;
+}
+
+
 /* ================ MARGIN | TOP ================= */
 .mt-custom {
     margin-top: 5rem;
