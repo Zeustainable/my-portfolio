@@ -28,7 +28,7 @@
         <div class="row">
 
             <!-- MY MAGAZINE -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#myMagazineModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/My_magazine.png" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -44,7 +44,7 @@
             </div>
 
             <!-- SCHOOL FLYER -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#schoolFlyerModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/School_flyer.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -60,7 +60,7 @@
             </div>
 
             <!-- DIGITAL ISSUES -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#digitalIssueModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/Digital_issues.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -76,7 +76,7 @@
             </div>
 
             <!-- BE UNIQUE -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#beUniqueModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/Be_unique.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -92,7 +92,7 @@
             </div>
 
             <!-- EYERIS LOGO -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#eyerisLogoModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/Eyeris_logo.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -108,7 +108,7 @@
             </div>
 
             <!-- EYERIS FLYER -->
-            <div class="col-md-3 mb-3">
+            <div class="col-md-3 mb-3" data-bs-toggle="modal" data-bs-target="#eyerisFlyerModal">
                 <div class="card card-custom mb-3 position-relative">
                     <div class="card-body d-flex justify-content-between align-items-center">
                         <img src="/assets/project/graphic_design/shs_projects/Eyeris_flyer.jpg" class="img-fluid img-custom rounded-top" alt="..." width="600" height="180">
@@ -125,3 +125,181 @@
         </div>
     </div>
 </section>
+
+<!-- MY MAGAZINE | MODAL -->
+<div class="modal fade" id="myMagazineModal" tabindex="-1" aria-labelledby="myMagazineModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content shadow-lg border-0">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-file-earmark-pdf-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="myMagazineModalLabel">My_magazine.pdf</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <div class="ratio ratio-4x3">
+                    <embed src="/assets/project/graphic_design/shs_projects/My_magazine.pdf" 
+                        class="w-100 h-100 rounded" 
+                        type="application/pdf">
+                </div>
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        PDF Document
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- SCHOOL FLYER | MODAL -->
+<div class="modal fade" id="schoolFlyerModal" tabindex="-1" aria-labelledby="schoolFlyerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="schoolFlyerModalLabel">School_flyer.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/project/graphic_design/shs_projects/School_flyer.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- DIGITAL ISSUES | MODAL -->
+<div class="modal fade" id="digitalIssueModal" tabindex="-1" aria-labelledby="digitalIssueModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="digitalIssueModalLabel">Digital_issues.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/project/graphic_design/shs_projects/Digital_issues.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- BE UNIQUE | MODAL -->
+<div class="modal fade" id="beUniqueModal" tabindex="-1" aria-labelledby="beUniqueModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="beUniqueModalLabel">Be_unique.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/project/graphic_design/shs_projects/Be_unique.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- EYERIS LOGO | MODAL -->
+<div class="modal fade" id="eyerisLogoModal" tabindex="-1" aria-labelledby="eyerisLogoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="eyerisLogoModalLabel">Eyeris_logo.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/project/graphic_design/shs_projects/Eyeris_logo.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- EYERIS FLYER | MODAL -->
+<div class="modal fade" id="eyerisFlyerModal" tabindex="-1" aria-labelledby="eyerisFlyerModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0 bg-secondary text-white py-2 px-3">
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-image-fill small me-2"></i>
+                    <h1 class="modal-title small fw-bold mb-0" id="eyerisFlyerModalLabel">Eyeris_flyer.jpg</h1>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body p-2 pb-0">
+                <img src="/assets/project/graphic_design/shs_projects/Eyeris_flyer.jpg" class="img-fluid rounded w-100" alt="..." width="600" height="180">
+            </div>
+            <div class="modal-footer bg-light border-0 py-2">
+                <div class="d-flex justify-content-between align-items-center w-100">
+                    <small class="text-muted">
+                        <i class="bi bi-info-circle me-1"></i>
+                        JPEG Image
+                    </small>
+                    <button type="button" class="btn btn-outline-secondary btn-sm px-4" data-bs-dismiss="modal">
+                        <i class="bi bi-x-lg me-1"></i>Close
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
